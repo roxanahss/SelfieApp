@@ -86,4 +86,8 @@ public class MainActivity extends AppCompatActivity {
             ivPhoto.setImageURI(resultUri);
         }
     }
+
+    public String returnName() {
+        return "Rox was here.";
+    }
 }
